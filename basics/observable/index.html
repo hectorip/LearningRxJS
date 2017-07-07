@@ -9,21 +9,23 @@
 </head>
 <body>
     <h1> Observables in RxJS </h1>
+    <span id="reactive_container"></span>
     <button onClick="react()"> Produce Event in Observable</button>
     <!-- <script src="../../node_modules/rxjs-es/Rx.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.2/Rx.js"></script>
     <script>
         var observable = new Rx.Subject();
+
         let el = document.querySelector("#reactive_container");
+        
         observable.subscribe(value => {
             console.log(value);
             el.innerText = value;
         });
-        observable.next('foo');
+        
         let val = 0;
         function react(ev){
             observable.next(val++);
-            
         }
     </script>
 </body>
