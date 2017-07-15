@@ -6,8 +6,11 @@ Ejercicios y apuntes acerca de  Reactive Extensions (Rx) para JS.
 
 Reactive programming y Data Flow
 
+### Boilerplate
 
-## Recursos
+
+
+## Recursos de Aprendizaje
 
 Algunos recursos para aprender Reactive Programming en general.
 
@@ -18,7 +21,7 @@ Algunos recursos para aprender Reactive Programming en general.
 ### Blogposts
 
   - [Getting Started With Rx.js: A Gentle Introduction](https://www.barbarianmeetscoding.com/blog/2016/04/11/getting-started-with-rx-dot-js/)
-
+  - [Diferencia entre Reactive Programming y Functional Reactive Programming]
 ### Videos
 
   - [RxJS Observables Crash Course](https://www.youtube.com/watch?v=ei7FsoXKPl0)
