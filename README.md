@@ -33,3 +33,4 @@ Algunas cosas en contra de Reactive Extensions JS
   - [RxJS is great. So why have I moved on?](https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3)
 
 
+Returning in 2019!
